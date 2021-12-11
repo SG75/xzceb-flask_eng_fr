@@ -19,7 +19,7 @@ def english_to_french():
 def french_to_english():
     textToTranslate = request.args.get('textToTranslate')
     
-     """
+    """
     End point implementation: fr -> en
     """
     text_to_translate = request.args.get( 'textToTranslate' )
